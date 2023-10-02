@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "minecraft:stone"
+    },
+    "state": {
+      "Name": "prehistoric_world:coarsesandydirt"
+    },
+    "radius": 1
+  }
+}

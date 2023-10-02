@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/toplayermicrobial_mat",
+    "up": "prehistoric_world:block/toplayermicrobial_mat",
+    "north": "prehistoric_world:block/microbial_mat",
+    "east": "prehistoric_world:block/microbial_mat",
+    "south": "prehistoric_world:block/microbial_mat",
+    "west": "prehistoric_world:block/microbial_mat",
+    "particle": "prehistoric_world:block/toplayermicrobial_mat"
+  },
+  "render_type": "solid"
+}

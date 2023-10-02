@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/top_black_sandstone",
+    "up": "prehistoric_world:block/top_black_sandstone",
+    "north": "prehistoric_world:block/black_sandstone",
+    "east": "prehistoric_world:block/black_sandstone",
+    "south": "prehistoric_world:block/black_sandstone",
+    "west": "prehistoric_world:block/black_sandstone",
+    "particle": "prehistoric_world:block/top_black_sandstone"
+  },
+  "render_type": "solid"
+}

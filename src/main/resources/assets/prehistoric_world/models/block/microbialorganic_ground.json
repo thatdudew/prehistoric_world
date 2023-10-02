@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "prehistoric_world:block/microbial_organic_ground",
+    "particle": "prehistoric_world:block/microbial_organic_ground"
+  },
+  "render_type": "solid"
+}

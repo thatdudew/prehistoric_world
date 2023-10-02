@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "prehistoric_world:cambrianocean",
+  "features": "prehistoric_world:sandyf",
+  "step": "surface_structures"
+}
