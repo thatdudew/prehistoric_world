@@ -1,12 +1,20 @@
 {
   "item.prehistoric_world.cambrianfossill": "Cambrian fossil",
-  "block.prehistoric_world.causticmud": "caustic mud",
-  "block.prehistoric_world.coarsesandydirt": "Coarse sandy dirt",
-  "biome.prehistoric_world.cambrianocean": "Cambrian ocean",
-  "block.prehistoric_world.cambrianfossil": "Cambrian fossil",
+  "painting.prehistoric_world.stgo.title": "Stgo",
+  "item.prehistoric_world.proconodontuscook": "Proconodontus raw",
+  "item.prehistoric_world.proconodontusraw": "Proconodontus raw",
+  "block.prehistoric_world.echmatocrinus_2": "Echmatocrinus",
   "item_group.prehistoric_world.pwblocks": "Pw blocks",
   "item.prehistoric_world.cambriandim": "Cambriandim Portal Igniter",
+  "block.prehistoric_world.blacksandstone": "Black sandstone",
+  "block.prehistoric_world.causticmud": "caustic mud",
+  "entity.prehistoric_world.proconodontus": "Proconodontus",
+  "block.prehistoric_world.coarsesandydirt": "Coarse sandy dirt",
+  "biome.prehistoric_world.cambrianocean": "Cambrian ocean",
+  "biome.prehistoric_world.cambrianland": "Cambrianland",
+  "block.prehistoric_world.cambrianfossil": "Cambrian fossil",
+  "painting.prehistoric_world.stgo.author": "thatdudew",
+  "item.prehistoric_world.proconodontus_spawn_egg": "Proconodontus Spawn Egg",
   "block.prehistoric_world.microbialmat": "Microbial mat",
-  "block.prehistoric_world.microbialorganic_ground": "Microbialorganic Ground",
-  "block.prehistoric_world.blacksandstone": "Black sandstone"
+  "block.prehistoric_world.microbialorganic_ground": "Microbialorganic Ground"
 }

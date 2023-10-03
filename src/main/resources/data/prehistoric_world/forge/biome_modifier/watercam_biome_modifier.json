@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "prehistoric_world:cambrianland",
+  "features": "prehistoric_world:watercam",
+  "step": "surface_structures"
+}

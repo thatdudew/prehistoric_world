@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Academic Free License v3.0"
+license="Apache License version 2.0"
 
 [[mods]]
 modId="prehistoric_world"
 version="1.0.0"
 displayName="Prehistoric world"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="nisar, MCreator"
+credits="thatdudew"
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/prehistoric-world-t"
+authors="thatdudew"
+description="prehistoric_world  "
 
 [[dependencies.prehistoric_world]]
     modId="minecraft"
