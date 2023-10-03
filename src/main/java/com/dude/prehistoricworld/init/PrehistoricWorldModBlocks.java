@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 
 import com.dude.prehistoricworld.block.MicrobialorganicGroundBlock;
 import com.dude.prehistoricworld.block.MicrobialmatBlock;
+import com.dude.prehistoricworld.block.EchmatocrinusBlock;
 import com.dude.prehistoricworld.block.CoarsesandydirtBlock;
 import com.dude.prehistoricworld.block.CausticmudBlock;
 import com.dude.prehistoricworld.block.CambrianfossilBlock;
@@ -32,6 +33,7 @@ public class PrehistoricWorldModBlocks {
 	public static final RegistryObject<Block> MICROBIALMAT = REGISTRY.register("microbialmat", () -> new MicrobialmatBlock());
 	public static final RegistryObject<Block> MICROBIALORGANIC_GROUND = REGISTRY.register("microbialorganic_ground", () -> new MicrobialorganicGroundBlock());
 	public static final RegistryObject<Block> CAUSTICMUD = REGISTRY.register("causticmud", () -> new CausticmudBlock());
+	public static final RegistryObject<Block> ECHMATOCRINUS_2 = REGISTRY.register("echmatocrinus_2", () -> new EchmatocrinusBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

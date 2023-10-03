@@ -39,8 +39,10 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import com.dude.prehistoricworld.init.PrehistoricWorldModTabs;
+import com.dude.prehistoricworld.init.PrehistoricWorldModPaintings;
 import com.dude.prehistoricworld.init.PrehistoricWorldModItems;
 import com.dude.prehistoricworld.init.PrehistoricWorldModFeatures;
+import com.dude.prehistoricworld.init.PrehistoricWorldModEntities;
 import com.dude.prehistoricworld.init.PrehistoricWorldModBlocks;
 
 @Mod("prehistoric_world")
@@ -55,9 +57,12 @@ public class PrehistoricWorldMod {
 		PrehistoricWorldModBlocks.REGISTRY.register(bus);
 
 		PrehistoricWorldModItems.REGISTRY.register(bus);
+		PrehistoricWorldModEntities.REGISTRY.register(bus);
 
 		PrehistoricWorldModTabs.REGISTRY.register(bus);
 		PrehistoricWorldModFeatures.REGISTRY.register(bus);
+
+		PrehistoricWorldModPaintings.REGISTRY.register(bus);
 
 	}
 

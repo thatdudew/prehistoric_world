@@ -36,12 +36,22 @@ public class PrehistoricWorldModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(PrehistoricWorldModItems.PROCONODONTUS_SPAWN_EGG.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(PrehistoricWorldModItems.CAMBRIANFOSSILL.get());
+			tabData.accept(PrehistoricWorldModBlocks.ECHMATOCRINUS_2.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PrehistoricWorldModItems.CAMBRIANDIM.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(PrehistoricWorldModItems.PROCONODONTUSRAW.get());
+			tabData.accept(PrehistoricWorldModItems.PROCONODONTUSCOOK.get());
 		}
 	}
 }
