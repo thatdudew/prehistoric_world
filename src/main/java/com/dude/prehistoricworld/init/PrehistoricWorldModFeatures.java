@@ -16,6 +16,7 @@ import com.dude.prehistoricworld.world.features.ores.MicrobialmatFeature;
 import com.dude.prehistoricworld.world.features.ores.CoarsesandydirtFeature;
 import com.dude.prehistoricworld.world.features.ores.CausticmudFeature;
 import com.dude.prehistoricworld.world.features.ores.CambrianfossilFeature;
+import com.dude.prehistoricworld.world.features.ores.BlacksandstonewallFeature;
 import com.dude.prehistoricworld.world.features.ores.BlacksandstoneFeature;
 import com.dude.prehistoricworld.PrehistoricWorldMod;
 
@@ -28,4 +29,5 @@ public class PrehistoricWorldModFeatures {
 	public static final RegistryObject<Feature<?>> MICROBIALMAT = REGISTRY.register("microbialmat", MicrobialmatFeature::new);
 	public static final RegistryObject<Feature<?>> MICROBIALORGANIC_GROUND = REGISTRY.register("microbialorganic_ground", MicrobialorganicGroundFeature::new);
 	public static final RegistryObject<Feature<?>> CAUSTICMUD = REGISTRY.register("causticmud", CausticmudFeature::new);
+	public static final RegistryObject<Feature<?>> BLACKSANDSTONE_WALLS = REGISTRY.register("blacksandstone_walls", BlacksandstonewallFeature::new);
 }

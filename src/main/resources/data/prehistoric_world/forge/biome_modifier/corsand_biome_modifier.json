@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "prehistoric_world:cambrianocean",
-  "features": "prehistoric_world:corsand",
-  "step": "surface_structures"
-}

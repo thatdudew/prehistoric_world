@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "prehistoric_world:block/top_black_sandstone",
+    "particle": "prehistoric_world:block/top_black_sandstone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "prehistoric_world:block/skillise2",
+    "particle": "prehistoric_world:block/skillise2"
+  },
+  "render_type": "solid"
+}

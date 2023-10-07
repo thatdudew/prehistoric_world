@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "prehistoric_world:block/lepidodendronslab"
+    },
+    "type=top": {
+      "model": "prehistoric_world:block/lepidodendronslab_top"
+    },
+    "type=double": {
+      "model": "prehistoric_world:block/lepidodendronslab_full"
+    }
+  }
+}

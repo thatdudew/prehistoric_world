@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/lepidodendrontop",
+    "up": "prehistoric_world:block/lepidodendrontop",
+    "north": "prehistoric_world:block/lepidodendron",
+    "east": "prehistoric_world:block/lepidodendron",
+    "south": "prehistoric_world:block/lepidodendron",
+    "west": "prehistoric_world:block/lepidodendron",
+    "particle": "prehistoric_world:block/lepidodendrontop"
+  },
+  "render_type": "solid"
+}

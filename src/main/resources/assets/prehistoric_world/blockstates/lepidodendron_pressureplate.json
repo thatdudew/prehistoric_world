@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "prehistoric_world:block/lepidodendron_pressureplate"
+    },
+    "powered=true": {
+      "model": "prehistoric_world:block/lepidodendron_pressureplate_down"
+    }
+  }
+}
