@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "prehistoric_world:lepidodendron_planks"
+    }
+  ],
+  "result": {
+    "item": "prehistoric_world:lepidodendronbutton",
+    "count": 1
+  }
+}

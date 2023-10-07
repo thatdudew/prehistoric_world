@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "prehistoric_world:blacksandstone"
+    },
+    "1": {
+      "item": "prehistoric_world:blacksandstone"
+    },
+    "2": {
+      "item": "prehistoric_world:blacksandstone"
+    },
+    "3": {
+      "item": "prehistoric_world:blacksandstone"
+    },
+    "4": {
+      "item": "prehistoric_world:blacksandstone"
+    },
+    "5": {
+      "item": "prehistoric_world:blacksandstone"
+    }
+  },
+  "result": {
+    "item": "prehistoric_world:blacksandstone_walls",
+    "count": 6
+  }
+}

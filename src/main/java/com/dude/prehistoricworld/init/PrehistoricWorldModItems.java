@@ -13,10 +13,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import com.dude.prehistoricworld.item.SyringocrinusrawItem;
+import com.dude.prehistoricworld.item.SyringocrinuscookItem;
 import com.dude.prehistoricworld.item.ProconodontusrawItem;
 import com.dude.prehistoricworld.item.ProconodontuscookItem;
 import com.dude.prehistoricworld.item.CambrianfossillItem;
 import com.dude.prehistoricworld.item.CambriandimItem;
+import com.dude.prehistoricworld.item.AjkaceratopsrawItem;
+import com.dude.prehistoricworld.item.AjkaceratopscookItem;
 import com.dude.prehistoricworld.PrehistoricWorldMod;
 
 public class PrehistoricWorldModItems {
@@ -33,6 +37,24 @@ public class PrehistoricWorldModItems {
 	public static final RegistryObject<Item> PROCONODONTUS_SPAWN_EGG = REGISTRY.register("proconodontus_spawn_egg", () -> new ForgeSpawnEggItem(PrehistoricWorldModEntities.PROCONODONTUS, -65485, -65485, new Item.Properties()));
 	public static final RegistryObject<Item> PROCONODONTUSRAW = REGISTRY.register("proconodontusraw", () -> new ProconodontusrawItem());
 	public static final RegistryObject<Item> PROCONODONTUSCOOK = REGISTRY.register("proconodontuscook", () -> new ProconodontuscookItem());
+	public static final RegistryObject<Item> SKILLISSUEBLOCK = block(PrehistoricWorldModBlocks.SKILLISSUEBLOCK);
+	public static final RegistryObject<Item> SYRINGOCRINUS_SPAWN_EGG = REGISTRY.register("syringocrinus_spawn_egg", () -> new ForgeSpawnEggItem(PrehistoricWorldModEntities.SYRINGOCRINUS, -10027264, -6684928, new Item.Properties()));
+	public static final RegistryObject<Item> SYRINGOCRINUSRAW = REGISTRY.register("syringocrinusraw", () -> new SyringocrinusrawItem());
+	public static final RegistryObject<Item> SYRINGOCRINUSCOOK = REGISTRY.register("syringocrinuscook", () -> new SyringocrinuscookItem());
+	public static final RegistryObject<Item> PROCONODONTUSBLOCK = block(PrehistoricWorldModBlocks.PROCONODONTUSBLOCK);
+	public static final RegistryObject<Item> SYRINGOCRINUSBLOCK = block(PrehistoricWorldModBlocks.SYRINGOCRINUSBLOCK);
+	public static final RegistryObject<Item> LEPIDODENDRON = block(PrehistoricWorldModBlocks.LEPIDODENDRON);
+	public static final RegistryObject<Item> LEPIDODENDRONLEAVE = block(PrehistoricWorldModBlocks.LEPIDODENDRONLEAVE);
+	public static final RegistryObject<Item> LEPIDODENDRON_PLANKS = block(PrehistoricWorldModBlocks.LEPIDODENDRON_PLANKS);
+	public static final RegistryObject<Item> LEPIDODENDRONSLAB = block(PrehistoricWorldModBlocks.LEPIDODENDRONSLAB);
+	public static final RegistryObject<Item> LEPIDODENDRONSTAIRS = block(PrehistoricWorldModBlocks.LEPIDODENDRONSTAIRS);
+	public static final RegistryObject<Item> LEPIDODENDRON_FENCES = block(PrehistoricWorldModBlocks.LEPIDODENDRON_FENCES);
+	public static final RegistryObject<Item> LEPIDODENDRONBUTTON = block(PrehistoricWorldModBlocks.LEPIDODENDRONBUTTON);
+	public static final RegistryObject<Item> LEPIDODENDRON_PRESSUREPLATE = block(PrehistoricWorldModBlocks.LEPIDODENDRON_PRESSUREPLATE);
+	public static final RegistryObject<Item> BLACKSANDSTONE_WALLS = block(PrehistoricWorldModBlocks.BLACKSANDSTONE_WALLS);
+	public static final RegistryObject<Item> AJKACERATOPS_SPAWN_EGG = REGISTRY.register("ajkaceratops_spawn_egg", () -> new ForgeSpawnEggItem(PrehistoricWorldModEntities.AJKACERATOPS, -16711936, -16724992, new Item.Properties()));
+	public static final RegistryObject<Item> AJKACERATOPSRAW = REGISTRY.register("ajkaceratopsraw", () -> new AjkaceratopsrawItem());
+	public static final RegistryObject<Item> AJKACERATOPSCOOK = REGISTRY.register("ajkaceratopscook", () -> new AjkaceratopscookItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

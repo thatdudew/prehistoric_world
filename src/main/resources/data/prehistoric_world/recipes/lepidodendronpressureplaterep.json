@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "prehistoric_world:lepidodendron_planks"
+    },
+    "1": {
+      "item": "prehistoric_world:lepidodendron_planks"
+    }
+  },
+  "result": {
+    "item": "prehistoric_world:lepidodendron_pressureplate",
+    "count": 1
+  }
+}

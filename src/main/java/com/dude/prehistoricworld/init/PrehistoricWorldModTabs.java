@@ -25,10 +25,34 @@ public class PrehistoricWorldModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.prehistoric_world.pwblocks")).icon(() -> new ItemStack(PrehistoricWorldModBlocks.BLACKSANDSTONE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(PrehistoricWorldModBlocks.CAMBRIANFOSSIL.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.COARSESANDYDIRT.get().asItem());
+				tabData.accept(PrehistoricWorldModItems.CAMBRIANFOSSILL.get());
 				tabData.accept(PrehistoricWorldModBlocks.BLACKSANDSTONE.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.MICROBIALMAT.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.MICROBIALORGANIC_GROUND.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.CAUSTICMUD.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SKILLISSUEBLOCK.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.PROCONODONTUSBLOCK.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SYRINGOCRINUSBLOCK.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LEPIDODENDRON.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LEPIDODENDRONLEAVE.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LEPIDODENDRON_PLANKS.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LEPIDODENDRONSLAB.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LEPIDODENDRONSTAIRS.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LEPIDODENDRON_FENCES.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LEPIDODENDRONBUTTON.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LEPIDODENDRON_PRESSUREPLATE.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.BLACKSANDSTONE_WALLS.get().asItem());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> P_WFOOD = REGISTRY.register("p_wfood",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.prehistoric_world.p_wfood")).icon(() -> new ItemStack(PrehistoricWorldModItems.PROCONODONTUSRAW.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(PrehistoricWorldModItems.PROCONODONTUSRAW.get());
+				tabData.accept(PrehistoricWorldModItems.PROCONODONTUSCOOK.get());
+				tabData.accept(PrehistoricWorldModItems.SYRINGOCRINUSRAW.get());
+				tabData.accept(PrehistoricWorldModItems.SYRINGOCRINUSCOOK.get());
+				tabData.accept(PrehistoricWorldModItems.AJKACERATOPSRAW.get());
+				tabData.accept(PrehistoricWorldModItems.AJKACERATOPSCOOK.get());
 			})
 
 					.build());
@@ -38,20 +62,16 @@ public class PrehistoricWorldModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(PrehistoricWorldModItems.PROCONODONTUS_SPAWN_EGG.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(PrehistoricWorldModItems.CAMBRIANFOSSILL.get());
-			tabData.accept(PrehistoricWorldModBlocks.ECHMATOCRINUS_2.get().asItem());
+			tabData.accept(PrehistoricWorldModItems.SYRINGOCRINUS_SPAWN_EGG.get());
+			tabData.accept(PrehistoricWorldModItems.AJKACERATOPS_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PrehistoricWorldModItems.CAMBRIANDIM.get());
 		}
 
-		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-			tabData.accept(PrehistoricWorldModItems.PROCONODONTUSRAW.get());
-			tabData.accept(PrehistoricWorldModItems.PROCONODONTUSCOOK.get());
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(PrehistoricWorldModBlocks.ECHMATOCRINUS_2.get().asItem());
 		}
 	}
 }

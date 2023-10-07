@@ -1,0 +1,9 @@
+{
+  "parent": "prehistoric_world:custom/proconodontusblock",
+  "textures": {
+    "all": "prehistoric_world:block/proconodontusblock",
+    "particle": "prehistoric_world:block/proconodontusblock",
+    "0": "prehistoric_world:block/proconodontusblock"
+  },
+  "render_type": "solid"
+}

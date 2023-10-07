@@ -1,0 +1,9 @@
+{
+  "parent": "prehistoric_world:custom/syringocrinusblock",
+  "textures": {
+    "all": "prehistoric_world:block/syringocrinus",
+    "particle": "prehistoric_world:block/syringocrinus",
+    "0": "prehistoric_world:block/syringocrinus"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "prehistoric_world:block/lepidodendronlog_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "prehistoric_world:block/lepidodendronlog_planks",
+    "top": "prehistoric_world:block/lepidodendronlog_planks",
+    "side": "prehistoric_world:block/lepidodendronlog_planks"
+  },
+  "render_type": "solid"
+}
