@@ -33,33 +33,6 @@
           }
         },
         {
-          "biome": "prehistoric_world:cambrianmountain",
-          "parameters": {
-            "temperature": [
-              -0.45,
-              0.2
-            ],
-            "humidity": [
-              -0.1,
-              1
-            ],
-            "continentalness": [
-              0.3,
-              0.55
-            ],
-            "weirdness": [
-              -1,
-              1
-            ],
-            "erosion": [
-              0.9499,
-              2
-            ],
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
           "biome": "prehistoric_world:cambrianland",
           "parameters": {
             "temperature": [
@@ -85,6 +58,33 @@
             "depth": 0,
             "offset": 0
           }
+        },
+        {
+          "biome": "prehistoric_world:cambrianmountain",
+          "parameters": {
+            "temperature": [
+              -0.45,
+              0.2
+            ],
+            "humidity": [
+              -0.1,
+              1
+            ],
+            "continentalness": [
+              0.3,
+              0.55
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              0.9499,
+              2
+            ],
+            "depth": 0,
+            "offset": 0
+          }
         }
       ]
     },
@@ -92,9 +92,9 @@
       "name": "prehistoric_world:cambriandim",
       "sea_level": 63,
       "legacy_random_source": false,
-      "disable_mob_generation": true,
-      "aquifers_enabled": false,
-      "ore_veins_enabled": false,
+      "disable_mob_generation": false,
+      "aquifers_enabled": true,
+      "ore_veins_enabled": true,
       "default_block": {
         "Name": "minecraft:stone"
       },
@@ -527,7 +527,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "prehistoric_world:cambrianmountain"
+                "prehistoric_world:cambrianland"
               ]
             },
             "then_run": {
@@ -602,7 +602,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "prehistoric_world:cambrianland"
+                "prehistoric_world:cambrianmountain"
               ]
             },
             "then_run": {

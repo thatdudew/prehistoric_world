@@ -13,14 +13,17 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import com.dude.prehistoricworld.item.TestItem;
 import com.dude.prehistoricworld.item.SyringocrinusrawItem;
 import com.dude.prehistoricworld.item.SyringocrinuscookItem;
+import com.dude.prehistoricworld.item.SulphurItem;
 import com.dude.prehistoricworld.item.ProconodontusrawItem;
 import com.dude.prehistoricworld.item.ProconodontuscookItem;
 import com.dude.prehistoricworld.item.CambrianfossillItem;
 import com.dude.prehistoricworld.item.CambriandimItem;
 import com.dude.prehistoricworld.item.AjkaceratopsrawItem;
 import com.dude.prehistoricworld.item.AjkaceratopscookItem;
+import com.dude.prehistoricworld.item.AirItem;
 import com.dude.prehistoricworld.PrehistoricWorldMod;
 
 public class PrehistoricWorldModItems {
@@ -55,6 +58,21 @@ public class PrehistoricWorldModItems {
 	public static final RegistryObject<Item> AJKACERATOPS_SPAWN_EGG = REGISTRY.register("ajkaceratops_spawn_egg", () -> new ForgeSpawnEggItem(PrehistoricWorldModEntities.AJKACERATOPS, -16711936, -16724992, new Item.Properties()));
 	public static final RegistryObject<Item> AJKACERATOPSRAW = REGISTRY.register("ajkaceratopsraw", () -> new AjkaceratopsrawItem());
 	public static final RegistryObject<Item> AJKACERATOPSCOOK = REGISTRY.register("ajkaceratopscook", () -> new AjkaceratopscookItem());
+	public static final RegistryObject<Item> INGENBLOCK = block(PrehistoricWorldModBlocks.INGENBLOCK);
+	public static final RegistryObject<Item> SULPHUR_BUCKET = REGISTRY.register("sulphur_bucket", () -> new SulphurItem());
+	public static final RegistryObject<Item> AIR = REGISTRY.register("air", () -> new AirItem());
+	public static final RegistryObject<Item> ANOMALOCARIS_SPAWN_EGG = REGISTRY.register("anomalocaris_spawn_egg", () -> new ForgeSpawnEggItem(PrehistoricWorldModEntities.ANOMALOCARIS, -13369345, -13382401, new Item.Properties()));
+	public static final RegistryObject<Item> GLASSSPONGE = block(PrehistoricWorldModBlocks.GLASSSPONGE);
+	public static final RegistryObject<Item> GINKGOLOG = block(PrehistoricWorldModBlocks.GINKGOLOG);
+	public static final RegistryObject<Item> GINKOPLANKS = block(PrehistoricWorldModBlocks.GINKOPLANKS);
+	public static final RegistryObject<Item> ORGANICGROUND = block(PrehistoricWorldModBlocks.ORGANICGROUND);
+	public static final RegistryObject<Item> SANDYMICROBIALORGANICGROUND = block(PrehistoricWorldModBlocks.SANDYMICROBIALORGANICGROUND);
+	public static final RegistryObject<Item> COARSEREDSANDYDIRT = block(PrehistoricWorldModBlocks.COARSEREDSANDYDIRT);
+	public static final RegistryObject<Item> COARSEBLACKSANDYDIRT = block(PrehistoricWorldModBlocks.COARSEBLACKSANDYDIRT);
+	public static final RegistryObject<Item> REDCLAY = block(PrehistoricWorldModBlocks.REDCLAY);
+	public static final RegistryObject<Item> PEAT = block(PrehistoricWorldModBlocks.PEAT);
+	public static final RegistryObject<Item> LUSHGROUND = block(PrehistoricWorldModBlocks.LUSHGROUND);
+	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -1,8 +1,10 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": [
+    "prehistoric_world:cambrianocean",
+    "prehistoric_world:cambrianland",
+    "prehistoric_world:cambrianmountain"
+  ],
   "features": "prehistoric_world:microbialorganic_ground",
   "step": "underground_ores"
 }

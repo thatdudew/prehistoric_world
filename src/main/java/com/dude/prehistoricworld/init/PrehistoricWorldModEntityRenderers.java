@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import com.dude.prehistoricworld.client.renderer.SyringocrinusRenderer;
 import com.dude.prehistoricworld.client.renderer.ProconodontusRenderer;
+import com.dude.prehistoricworld.client.renderer.AnomalocarisRenderer;
 import com.dude.prehistoricworld.client.renderer.AjkaceratopsRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -20,5 +21,6 @@ public class PrehistoricWorldModEntityRenderers {
 		event.registerEntityRenderer(PrehistoricWorldModEntities.PROCONODONTUS.get(), ProconodontusRenderer::new);
 		event.registerEntityRenderer(PrehistoricWorldModEntities.SYRINGOCRINUS.get(), SyringocrinusRenderer::new);
 		event.registerEntityRenderer(PrehistoricWorldModEntities.AJKACERATOPS.get(), AjkaceratopsRenderer::new);
+		event.registerEntityRenderer(PrehistoricWorldModEntities.ANOMALOCARIS.get(), AnomalocarisRenderer::new);
 	}
 }

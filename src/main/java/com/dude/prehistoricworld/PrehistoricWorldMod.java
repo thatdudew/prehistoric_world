@@ -39,9 +39,11 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import com.dude.prehistoricworld.init.PrehistoricWorldModTabs;
+import com.dude.prehistoricworld.init.PrehistoricWorldModSounds;
 import com.dude.prehistoricworld.init.PrehistoricWorldModPaintings;
 import com.dude.prehistoricworld.init.PrehistoricWorldModItems;
-import com.dude.prehistoricworld.init.PrehistoricWorldModFeatures;
+import com.dude.prehistoricworld.init.PrehistoricWorldModFluids;
+import com.dude.prehistoricworld.init.PrehistoricWorldModFluidTypes;
 import com.dude.prehistoricworld.init.PrehistoricWorldModEntities;
 import com.dude.prehistoricworld.init.PrehistoricWorldModBlocks;
 
@@ -53,17 +55,18 @@ public class PrehistoricWorldMod {
 	public PrehistoricWorldMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		PrehistoricWorldModSounds.REGISTRY.register(bus);
 		PrehistoricWorldModBlocks.REGISTRY.register(bus);
 
 		PrehistoricWorldModItems.REGISTRY.register(bus);
 		PrehistoricWorldModEntities.REGISTRY.register(bus);
 
 		PrehistoricWorldModTabs.REGISTRY.register(bus);
-		PrehistoricWorldModFeatures.REGISTRY.register(bus);
 
 		PrehistoricWorldModPaintings.REGISTRY.register(bus);
 
+		PrehistoricWorldModFluids.REGISTRY.register(bus);
+		PrehistoricWorldModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
