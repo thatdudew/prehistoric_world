@@ -43,6 +43,5 @@ public class Modelsyringocrinus<T extends Entity> extends EntityModel<T> {
 	}
 
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-		this.bone.yRot = ageInTicks / 20.f;
 	}
 }

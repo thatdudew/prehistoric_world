@@ -2,14 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1"
+    "a",
+    "a"
   ],
   "key": {
-    "0": {
-      "item": "prehistoric_world:lepidodendron_planks"
-    },
-    "1": {
+    "a": {
       "item": "prehistoric_world:lepidodendron_planks"
     }
   },

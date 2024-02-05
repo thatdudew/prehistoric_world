@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "prehistoric_world:plants",
+  "features": "prehistoric_world:lushground",
+  "step": "underground_ores"
+}

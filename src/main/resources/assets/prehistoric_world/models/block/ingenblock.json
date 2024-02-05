@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/blub",
+    "up": "prehistoric_world:block/blub",
+    "north": "prehistoric_world:block/blu",
+    "east": "prehistoric_world:block/blub",
+    "south": "prehistoric_world:block/blub",
+    "west": "prehistoric_world:block/blub",
+    "particle": "prehistoric_world:block/blub"
+  },
+  "render_type": "solid"
+}

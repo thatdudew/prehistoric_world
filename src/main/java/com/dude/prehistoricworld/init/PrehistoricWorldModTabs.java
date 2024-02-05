@@ -42,6 +42,19 @@ public class PrehistoricWorldModTabs {
 				tabData.accept(PrehistoricWorldModBlocks.LEPIDODENDRONBUTTON.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.LEPIDODENDRON_PRESSUREPLATE.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.BLACKSANDSTONE_WALLS.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.INGENBLOCK.get().asItem());
+				tabData.accept(PrehistoricWorldModItems.SULPHUR_BUCKET.get());
+				tabData.accept(PrehistoricWorldModItems.AIR.get());
+				tabData.accept(PrehistoricWorldModBlocks.GLASSSPONGE.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.GINKGOLOG.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.GINKOPLANKS.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.ORGANICGROUND.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SANDYMICROBIALORGANICGROUND.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.COARSEREDSANDYDIRT.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.COARSEBLACKSANDYDIRT.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.REDCLAY.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.PEAT.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LUSHGROUND.get().asItem());
 			})
 
 					.build());
@@ -64,10 +77,12 @@ public class PrehistoricWorldModTabs {
 			tabData.accept(PrehistoricWorldModItems.PROCONODONTUS_SPAWN_EGG.get());
 			tabData.accept(PrehistoricWorldModItems.SYRINGOCRINUS_SPAWN_EGG.get());
 			tabData.accept(PrehistoricWorldModItems.AJKACERATOPS_SPAWN_EGG.get());
+			tabData.accept(PrehistoricWorldModItems.ANOMALOCARIS_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PrehistoricWorldModItems.CAMBRIANDIM.get());
+			tabData.accept(PrehistoricWorldModItems.TEST.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

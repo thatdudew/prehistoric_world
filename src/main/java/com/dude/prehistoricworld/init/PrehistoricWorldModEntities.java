@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import com.dude.prehistoricworld.entity.SyringocrinusEntity;
 import com.dude.prehistoricworld.entity.ProconodontusEntity;
+import com.dude.prehistoricworld.entity.AnomalocarisEntity;
 import com.dude.prehistoricworld.entity.AjkaceratopsEntity;
 import com.dude.prehistoricworld.PrehistoricWorldMod;
 
@@ -36,6 +37,10 @@ public class PrehistoricWorldModEntities {
 			EntityType.Builder.<AjkaceratopsEntity>of(AjkaceratopsEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AjkaceratopsEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<AnomalocarisEntity>> ANOMALOCARIS = register("anomalocaris",
+			EntityType.Builder.<AnomalocarisEntity>of(AnomalocarisEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AnomalocarisEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -47,6 +52,7 @@ public class PrehistoricWorldModEntities {
 			ProconodontusEntity.init();
 			SyringocrinusEntity.init();
 			AjkaceratopsEntity.init();
+			AnomalocarisEntity.init();
 		});
 	}
 
@@ -55,5 +61,6 @@ public class PrehistoricWorldModEntities {
 		event.put(PROCONODONTUS.get(), ProconodontusEntity.createAttributes().build());
 		event.put(SYRINGOCRINUS.get(), SyringocrinusEntity.createAttributes().build());
 		event.put(AJKACERATOPS.get(), AjkaceratopsEntity.createAttributes().build());
+		event.put(ANOMALOCARIS.get(), AnomalocarisEntity.createAttributes().build());
 	}
 }

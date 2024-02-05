@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/ginkgo_instidelog",
+    "up": "prehistoric_world:block/ginkgo_instidelog",
+    "north": "prehistoric_world:block/ginkgo_logside",
+    "east": "prehistoric_world:block/ginkgo_logside",
+    "south": "prehistoric_world:block/ginkgo_logside",
+    "west": "prehistoric_world:block/ginkgo_logside",
+    "particle": "prehistoric_world:block/ginkgo_instidelog"
+  },
+  "render_type": "solid"
+}
