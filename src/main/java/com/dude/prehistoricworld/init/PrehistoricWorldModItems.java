@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import com.dude.prehistoricworld.item.ZirconitemItem;
 import com.dude.prehistoricworld.item.SyringocrinusrawItem;
 import com.dude.prehistoricworld.item.SyringocrinuscookItem;
 import com.dude.prehistoricworld.item.SulphuritemItem;
@@ -81,6 +82,14 @@ public class PrehistoricWorldModItems {
 	public static final RegistryObject<Item> SULPHURITEM = REGISTRY.register("sulphuritem", () -> new SulphuritemItem());
 	public static final RegistryObject<Item> BURNTLOG = block(PrehistoricWorldModBlocks.BURNTLOG);
 	public static final RegistryObject<Item> REDCLAYBALL = REGISTRY.register("redclayball", () -> new RedclayballItem());
+	public static final RegistryObject<Item> ZIRCONBLOCK = block(PrehistoricWorldModBlocks.ZIRCONBLOCK);
+	public static final RegistryObject<Item> ZIRCONITEM = REGISTRY.register("zirconitem", () -> new ZirconitemItem());
+	public static final RegistryObject<Item> ZIRCONORE = block(PrehistoricWorldModBlocks.ZIRCONORE);
+	public static final RegistryObject<Item> DEEPSLATEZIRCONORE = block(PrehistoricWorldModBlocks.DEEPSLATEZIRCONORE);
+	public static final RegistryObject<Item> NETHERRACKZIRCONORE = block(PrehistoricWorldModBlocks.NETHERRACKZIRCONORE);
+	public static final RegistryObject<Item> ASH = block(PrehistoricWorldModBlocks.ASH);
+	public static final RegistryObject<Item> GROUNDCOVER = block(PrehistoricWorldModBlocks.GROUNDCOVER);
+	public static final RegistryObject<Item> SANDGROUNDCOVER = block(PrehistoricWorldModBlocks.SANDGROUNDCOVER);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

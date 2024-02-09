@@ -63,6 +63,14 @@ public class PrehistoricWorldModTabs {
 				tabData.accept(PrehistoricWorldModItems.SULPHURITEM.get());
 				tabData.accept(PrehistoricWorldModBlocks.BURNTLOG.get().asItem());
 				tabData.accept(PrehistoricWorldModItems.REDCLAYBALL.get());
+				tabData.accept(PrehistoricWorldModBlocks.ZIRCONBLOCK.get().asItem());
+				tabData.accept(PrehistoricWorldModItems.ZIRCONITEM.get());
+				tabData.accept(PrehistoricWorldModBlocks.ZIRCONORE.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.DEEPSLATEZIRCONORE.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.NETHERRACKZIRCONORE.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.ASH.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.GROUNDCOVER.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SANDGROUNDCOVER.get().asItem());
 			})
 
 					.build());

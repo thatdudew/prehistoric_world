@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_nether",
+  "features": "prehistoric_world:netherrackzirconore",
+  "step": "underground_ores"
+}

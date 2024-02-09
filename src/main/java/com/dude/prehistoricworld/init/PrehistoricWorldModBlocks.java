@@ -14,16 +14,20 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import com.dude.prehistoricworld.block.ZirconoreBlock;
+import com.dude.prehistoricworld.block.ZirconblockBlock;
 import com.dude.prehistoricworld.block.WhitesandBlock;
 import com.dude.prehistoricworld.block.SyringocrinusblockBlock;
 import com.dude.prehistoricworld.block.SulphurblcokBlock;
 import com.dude.prehistoricworld.block.SulphurBlock;
 import com.dude.prehistoricworld.block.SkillissueblockBlock;
 import com.dude.prehistoricworld.block.SandymicrobialorganicgroundBlock;
+import com.dude.prehistoricworld.block.SandgroundcoverBlock;
 import com.dude.prehistoricworld.block.RedclayBlock;
 import com.dude.prehistoricworld.block.ProconodontusblockBlock;
 import com.dude.prehistoricworld.block.PeatBlock;
 import com.dude.prehistoricworld.block.OrganicgroundBlock;
+import com.dude.prehistoricworld.block.NetherrackzirconoreBlock;
 import com.dude.prehistoricworld.block.MossyorganicgroundBlock;
 import com.dude.prehistoricworld.block.MicrobialorganicGroundBlock;
 import com.dude.prehistoricworld.block.MicrobialmatBlock;
@@ -37,12 +41,14 @@ import com.dude.prehistoricworld.block.LepidodendronPlanksBlock;
 import com.dude.prehistoricworld.block.LepidodendronFenceBlock;
 import com.dude.prehistoricworld.block.LepidodendronBlock;
 import com.dude.prehistoricworld.block.IngenblockBlock;
+import com.dude.prehistoricworld.block.GroundcoverBlock;
 import com.dude.prehistoricworld.block.GlassspongeBlock;
 import com.dude.prehistoricworld.block.GinkoplanksBlock;
 import com.dude.prehistoricworld.block.GinkgologBlock;
 import com.dude.prehistoricworld.block.FernyorganicgroundBlock;
 import com.dude.prehistoricworld.block.EchmatocrinusBlock;
 import com.dude.prehistoricworld.block.DriedMudBlock;
+import com.dude.prehistoricworld.block.DeepslatezirconoreBlock;
 import com.dude.prehistoricworld.block.CoarsesandydirtBlock;
 import com.dude.prehistoricworld.block.CoarseredsandydirtBlock;
 import com.dude.prehistoricworld.block.CoarseblacksandydirtBlock;
@@ -53,6 +59,7 @@ import com.dude.prehistoricworld.block.BurntlogBlock;
 import com.dude.prehistoricworld.block.BlacksandstonewallBlock;
 import com.dude.prehistoricworld.block.BlacksandstoneBlock;
 import com.dude.prehistoricworld.block.BlacksandBlock;
+import com.dude.prehistoricworld.block.AshBlock;
 import com.dude.prehistoricworld.PrehistoricWorldMod;
 
 public class PrehistoricWorldModBlocks {
@@ -96,6 +103,13 @@ public class PrehistoricWorldModBlocks {
 	public static final RegistryObject<Block> BLACKSAND = REGISTRY.register("blacksand", () -> new BlacksandBlock());
 	public static final RegistryObject<Block> SULPHURBLCOK = REGISTRY.register("sulphurblcok", () -> new SulphurblcokBlock());
 	public static final RegistryObject<Block> BURNTLOG = REGISTRY.register("burntlog", () -> new BurntlogBlock());
+	public static final RegistryObject<Block> ZIRCONBLOCK = REGISTRY.register("zirconblock", () -> new ZirconblockBlock());
+	public static final RegistryObject<Block> ZIRCONORE = REGISTRY.register("zirconore", () -> new ZirconoreBlock());
+	public static final RegistryObject<Block> DEEPSLATEZIRCONORE = REGISTRY.register("deepslatezirconore", () -> new DeepslatezirconoreBlock());
+	public static final RegistryObject<Block> NETHERRACKZIRCONORE = REGISTRY.register("netherrackzirconore", () -> new NetherrackzirconoreBlock());
+	public static final RegistryObject<Block> ASH = REGISTRY.register("ash", () -> new AshBlock());
+	public static final RegistryObject<Block> GROUNDCOVER = REGISTRY.register("groundcover", () -> new GroundcoverBlock());
+	public static final RegistryObject<Block> SANDGROUNDCOVER = REGISTRY.register("sandgroundcover", () -> new SandgroundcoverBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
