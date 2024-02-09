@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:saplings"
+    },
+    "b": {
+      "item": "minecraft:mud"
+    },
+    "c": {
+      "tag": "minecraft:small_flowers"
+    }
+  },
+  "result": {
+    "item": "prehistoric_world:peat",
+    "count": 1
+  }
+}

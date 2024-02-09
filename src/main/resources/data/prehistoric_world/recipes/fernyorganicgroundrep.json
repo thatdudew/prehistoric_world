@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:fern"
+    },
+    "b": {
+      "item": "minecraft:podzol"
+    }
+  },
+  "result": {
+    "item": "prehistoric_world:fernyorganicground",
+    "count": 1
+  }
+}

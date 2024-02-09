@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "prehistoric_world:zirconblock"
+    }
+  },
+  "result": {
+    "item": "prehistoric_world:zirconitem",
+    "count": 9
+  }
+}

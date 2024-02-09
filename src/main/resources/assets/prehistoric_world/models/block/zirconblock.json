@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/zircon_block",
+    "up": "prehistoric_world:block/zircon_block",
+    "north": "prehistoric_world:block/zircon_block",
+    "east": "prehistoric_world:block/zircon_block",
+    "south": "prehistoric_world:block/zircon_block",
+    "west": "prehistoric_world:block/zircon_block",
+    "particle": "prehistoric_world:block/zircon_block"
+  },
+  "render_type": "solid"
+}

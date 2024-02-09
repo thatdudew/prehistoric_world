@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/dirt",
+    "up": "prehistoric_world:block/ferntop",
+    "north": "prehistoric_world:block/fernside",
+    "east": "prehistoric_world:block/fernside",
+    "south": "prehistoric_world:block/fernside",
+    "west": "prehistoric_world:block/fernside",
+    "particle": "prehistoric_world:block/dirt"
+  },
+  "render_type": "solid"
+}
