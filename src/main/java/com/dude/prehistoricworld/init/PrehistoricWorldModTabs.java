@@ -44,7 +44,6 @@ public class PrehistoricWorldModTabs {
 				tabData.accept(PrehistoricWorldModBlocks.BLACKSANDSTONE_WALLS.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.INGENBLOCK.get().asItem());
 				tabData.accept(PrehistoricWorldModItems.SULPHUR_BUCKET.get());
-				tabData.accept(PrehistoricWorldModItems.AIR.get());
 				tabData.accept(PrehistoricWorldModBlocks.GLASSSPONGE.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.GINKGOLOG.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.GINKOPLANKS.get().asItem());
@@ -55,6 +54,15 @@ public class PrehistoricWorldModTabs {
 				tabData.accept(PrehistoricWorldModBlocks.REDCLAY.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.PEAT.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.LUSHGROUND.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.DRIED_MUD.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.MOSSYORGANICGROUND.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.FERNYORGANICGROUND.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.WHITESAND.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.BLACKSAND.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SULPHURBLCOK.get().asItem());
+				tabData.accept(PrehistoricWorldModItems.SULPHURITEM.get());
+				tabData.accept(PrehistoricWorldModBlocks.BURNTLOG.get().asItem());
+				tabData.accept(PrehistoricWorldModItems.REDCLAYBALL.get());
 			})
 
 					.build());
@@ -78,11 +86,11 @@ public class PrehistoricWorldModTabs {
 			tabData.accept(PrehistoricWorldModItems.SYRINGOCRINUS_SPAWN_EGG.get());
 			tabData.accept(PrehistoricWorldModItems.AJKACERATOPS_SPAWN_EGG.get());
 			tabData.accept(PrehistoricWorldModItems.ANOMALOCARIS_SPAWN_EGG.get());
+			tabData.accept(PrehistoricWorldModItems.DICKINSONIA_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(PrehistoricWorldModItems.CAMBRIANDIM.get());
-			tabData.accept(PrehistoricWorldModItems.TEST.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "prehistoric_world:redclayball"
+    }
+  },
+  "result": {
+    "item": "prehistoric_world:redclay",
+    "count": 1
+  }
+}

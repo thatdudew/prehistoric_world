@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "prehistoric_world:block/white_sand",
+    "particle": "prehistoric_world:block/white_sand"
+  },
+  "render_type": "solid"
+}

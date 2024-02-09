@@ -14,8 +14,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import com.dude.prehistoricworld.block.TestPortalBlock;
+import com.dude.prehistoricworld.block.WhitesandBlock;
 import com.dude.prehistoricworld.block.SyringocrinusblockBlock;
+import com.dude.prehistoricworld.block.SulphurblcokBlock;
 import com.dude.prehistoricworld.block.SulphurBlock;
 import com.dude.prehistoricworld.block.SkillissueblockBlock;
 import com.dude.prehistoricworld.block.SandymicrobialorganicgroundBlock;
@@ -23,6 +24,7 @@ import com.dude.prehistoricworld.block.RedclayBlock;
 import com.dude.prehistoricworld.block.ProconodontusblockBlock;
 import com.dude.prehistoricworld.block.PeatBlock;
 import com.dude.prehistoricworld.block.OrganicgroundBlock;
+import com.dude.prehistoricworld.block.MossyorganicgroundBlock;
 import com.dude.prehistoricworld.block.MicrobialorganicGroundBlock;
 import com.dude.prehistoricworld.block.MicrobialmatBlock;
 import com.dude.prehistoricworld.block.LushgroundBlock;
@@ -38,15 +40,19 @@ import com.dude.prehistoricworld.block.IngenblockBlock;
 import com.dude.prehistoricworld.block.GlassspongeBlock;
 import com.dude.prehistoricworld.block.GinkoplanksBlock;
 import com.dude.prehistoricworld.block.GinkgologBlock;
+import com.dude.prehistoricworld.block.FernyorganicgroundBlock;
 import com.dude.prehistoricworld.block.EchmatocrinusBlock;
+import com.dude.prehistoricworld.block.DriedMudBlock;
 import com.dude.prehistoricworld.block.CoarsesandydirtBlock;
 import com.dude.prehistoricworld.block.CoarseredsandydirtBlock;
 import com.dude.prehistoricworld.block.CoarseblacksandydirtBlock;
 import com.dude.prehistoricworld.block.CausticmudBlock;
 import com.dude.prehistoricworld.block.CambrianfossilBlock;
 import com.dude.prehistoricworld.block.CambriandimPortalBlock;
+import com.dude.prehistoricworld.block.BurntlogBlock;
 import com.dude.prehistoricworld.block.BlacksandstonewallBlock;
 import com.dude.prehistoricworld.block.BlacksandstoneBlock;
+import com.dude.prehistoricworld.block.BlacksandBlock;
 import com.dude.prehistoricworld.PrehistoricWorldMod;
 
 public class PrehistoricWorldModBlocks {
@@ -83,7 +89,13 @@ public class PrehistoricWorldModBlocks {
 	public static final RegistryObject<Block> REDCLAY = REGISTRY.register("redclay", () -> new RedclayBlock());
 	public static final RegistryObject<Block> PEAT = REGISTRY.register("peat", () -> new PeatBlock());
 	public static final RegistryObject<Block> LUSHGROUND = REGISTRY.register("lushground", () -> new LushgroundBlock());
-	public static final RegistryObject<Block> TEST_PORTAL = REGISTRY.register("test_portal", () -> new TestPortalBlock());
+	public static final RegistryObject<Block> DRIED_MUD = REGISTRY.register("dried_mud", () -> new DriedMudBlock());
+	public static final RegistryObject<Block> MOSSYORGANICGROUND = REGISTRY.register("mossyorganicground", () -> new MossyorganicgroundBlock());
+	public static final RegistryObject<Block> FERNYORGANICGROUND = REGISTRY.register("fernyorganicground", () -> new FernyorganicgroundBlock());
+	public static final RegistryObject<Block> WHITESAND = REGISTRY.register("whitesand", () -> new WhitesandBlock());
+	public static final RegistryObject<Block> BLACKSAND = REGISTRY.register("blacksand", () -> new BlacksandBlock());
+	public static final RegistryObject<Block> SULPHURBLCOK = REGISTRY.register("sulphurblcok", () -> new SulphurblcokBlock());
+	public static final RegistryObject<Block> BURNTLOG = REGISTRY.register("burntlog", () -> new BurntlogBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

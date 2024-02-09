@@ -2,6 +2,7 @@
 package com.dude.prehistoricworld.block;
 
 import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -15,11 +16,9 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-import com.dude.prehistoricworld.init.PrehistoricWorldModItems;
-
-public class RedclayBlock extends FallingBlock {
-	public RedclayBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.SAND).strength(1f, 10f));
+public class WhitesandBlock extends FallingBlock {
+	public WhitesandBlock() {
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.SNARE).sound(SoundType.SAND).strength(1f, 10f));
 	}
 
 	@Override
@@ -37,6 +36,6 @@ public class RedclayBlock extends FallingBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(PrehistoricWorldModItems.REDCLAYBALL.get(), 4));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

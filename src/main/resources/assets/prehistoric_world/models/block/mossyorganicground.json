@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/dirt",
+    "up": "prehistoric_world:block/mossytop",
+    "north": "prehistoric_world:block/mossyside",
+    "east": "prehistoric_world:block/mossyside",
+    "south": "prehistoric_world:block/mossyside",
+    "west": "prehistoric_world:block/mossyside",
+    "particle": "prehistoric_world:block/dirt"
+  },
+  "render_type": "solid"
+}
