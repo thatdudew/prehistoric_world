@@ -109,7 +109,7 @@ public class PrehistoricWorldModBlocks {
 	public static final RegistryObject<Block> NETHERRACKZIRCONORE = REGISTRY.register("netherrackzirconore", () -> new NetherrackzirconoreBlock());
 	public static final RegistryObject<Block> ASH = REGISTRY.register("ash", () -> new AshBlock());
 	public static final RegistryObject<Block> GROUNDCOVER = REGISTRY.register("groundcover", () -> new GroundcoverBlock());
-	public static final RegistryObject<Block> SANDGROUNDCOVER = REGISTRY.register("sandgroundcover", () -> new SandgroundcoverBlock());
+	public static final RegistryObject<Block> SANDGROUNDCOVERFLOWER = REGISTRY.register("sandgroundcoverflower", () -> new SandgroundcoverBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -89,7 +89,7 @@ public class PrehistoricWorldModItems {
 	public static final RegistryObject<Item> NETHERRACKZIRCONORE = block(PrehistoricWorldModBlocks.NETHERRACKZIRCONORE);
 	public static final RegistryObject<Item> ASH = block(PrehistoricWorldModBlocks.ASH);
 	public static final RegistryObject<Item> GROUNDCOVER = block(PrehistoricWorldModBlocks.GROUNDCOVER);
-	public static final RegistryObject<Item> SANDGROUNDCOVER = block(PrehistoricWorldModBlocks.SANDGROUNDCOVER);
+	public static final RegistryObject<Item> SANDGROUNDCOVERFLOWER = block(PrehistoricWorldModBlocks.SANDGROUNDCOVERFLOWER);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

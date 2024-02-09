@@ -70,7 +70,7 @@ public class PrehistoricWorldModTabs {
 				tabData.accept(PrehistoricWorldModBlocks.NETHERRACKZIRCONORE.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.ASH.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.GROUNDCOVER.get().asItem());
-				tabData.accept(PrehistoricWorldModBlocks.SANDGROUNDCOVER.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SANDGROUNDCOVERFLOWER.get().asItem());
 			})
 
 					.build());
