@@ -21,6 +21,7 @@ import com.dude.prehistoricworld.block.SyringocrinusblockBlock;
 import com.dude.prehistoricworld.block.SulphurblcokBlock;
 import com.dude.prehistoricworld.block.SulphurBlock;
 import com.dude.prehistoricworld.block.SkillissueblockBlock;
+import com.dude.prehistoricworld.block.ShourtgroundcoverBlock;
 import com.dude.prehistoricworld.block.SandymicrobialorganicgroundBlock;
 import com.dude.prehistoricworld.block.SandgroundcoverBlock;
 import com.dude.prehistoricworld.block.RedclayBlock;
@@ -40,6 +41,7 @@ import com.dude.prehistoricworld.block.LepidodendronPressureplateBlock;
 import com.dude.prehistoricworld.block.LepidodendronPlanksBlock;
 import com.dude.prehistoricworld.block.LepidodendronFenceBlock;
 import com.dude.prehistoricworld.block.LepidodendronBlock;
+import com.dude.prehistoricworld.block.LavarockBlock;
 import com.dude.prehistoricworld.block.IngenblockBlock;
 import com.dude.prehistoricworld.block.GroundcoverBlock;
 import com.dude.prehistoricworld.block.GlassspongeBlock;
@@ -52,6 +54,7 @@ import com.dude.prehistoricworld.block.DeepslatezirconoreBlock;
 import com.dude.prehistoricworld.block.CoarsesandydirtBlock;
 import com.dude.prehistoricworld.block.CoarseredsandydirtBlock;
 import com.dude.prehistoricworld.block.CoarseblacksandydirtBlock;
+import com.dude.prehistoricworld.block.CharniaBlock;
 import com.dude.prehistoricworld.block.CausticmudBlock;
 import com.dude.prehistoricworld.block.CambrianfossilBlock;
 import com.dude.prehistoricworld.block.CambriandimPortalBlock;
@@ -59,6 +62,7 @@ import com.dude.prehistoricworld.block.BurntlogBlock;
 import com.dude.prehistoricworld.block.BlacksandstonewallBlock;
 import com.dude.prehistoricworld.block.BlacksandstoneBlock;
 import com.dude.prehistoricworld.block.BlacksandBlock;
+import com.dude.prehistoricworld.block.BlackashBlock;
 import com.dude.prehistoricworld.block.AshBlock;
 import com.dude.prehistoricworld.PrehistoricWorldMod;
 
@@ -71,7 +75,6 @@ public class PrehistoricWorldModBlocks {
 	public static final RegistryObject<Block> MICROBIALMAT = REGISTRY.register("microbialmat", () -> new MicrobialmatBlock());
 	public static final RegistryObject<Block> MICROBIALORGANIC_GROUND = REGISTRY.register("microbialorganic_ground", () -> new MicrobialorganicGroundBlock());
 	public static final RegistryObject<Block> CAUSTICMUD = REGISTRY.register("causticmud", () -> new CausticmudBlock());
-	public static final RegistryObject<Block> ECHMATOCRINUS_2 = REGISTRY.register("echmatocrinus_2", () -> new EchmatocrinusBlock());
 	public static final RegistryObject<Block> SKILLISSUEBLOCK = REGISTRY.register("skillissueblock", () -> new SkillissueblockBlock());
 	public static final RegistryObject<Block> PROCONODONTUSBLOCK = REGISTRY.register("proconodontusblock", () -> new ProconodontusblockBlock());
 	public static final RegistryObject<Block> SYRINGOCRINUSBLOCK = REGISTRY.register("syringocrinusblock", () -> new SyringocrinusblockBlock());
@@ -110,6 +113,11 @@ public class PrehistoricWorldModBlocks {
 	public static final RegistryObject<Block> ASH = REGISTRY.register("ash", () -> new AshBlock());
 	public static final RegistryObject<Block> GROUNDCOVER = REGISTRY.register("groundcover", () -> new GroundcoverBlock());
 	public static final RegistryObject<Block> SANDGROUNDCOVERFLOWER = REGISTRY.register("sandgroundcoverflower", () -> new SandgroundcoverBlock());
+	public static final RegistryObject<Block> SHORTGROUNDCOVER = REGISTRY.register("shortgroundcover", () -> new ShourtgroundcoverBlock());
+	public static final RegistryObject<Block> ECHMATOCRINUS = REGISTRY.register("echmatocrinus", () -> new EchmatocrinusBlock());
+	public static final RegistryObject<Block> LAVAROCK = REGISTRY.register("lavarock", () -> new LavarockBlock());
+	public static final RegistryObject<Block> BLACKASH = REGISTRY.register("blackash", () -> new BlackashBlock());
+	public static final RegistryObject<Block> CHARNIA = REGISTRY.register("charnia", () -> new CharniaBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

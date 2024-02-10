@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/lava_rock",
+    "up": "prehistoric_world:block/lava_rock",
+    "north": "prehistoric_world:block/lava_rock",
+    "east": "prehistoric_world:block/lava_rock",
+    "south": "prehistoric_world:block/lava_rock",
+    "west": "prehistoric_world:block/lava_rock",
+    "particle": "prehistoric_world:block/lava_rock"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prehistoric_world:block/charnia"
+    },
+    "facing=east": {
+      "model": "prehistoric_world:block/charnia",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "prehistoric_world:block/charnia",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prehistoric_world:block/charnia",
+      "y": 270
+    }
+  }
+}
