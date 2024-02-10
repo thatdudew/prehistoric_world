@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prehistoric_world:block/lavarock"
+    },
+    "facing=east": {
+      "model": "prehistoric_world:block/lavarock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "prehistoric_world:block/lavarock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prehistoric_world:block/lavarock",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "prehistoric_world:block/lavarock",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "prehistoric_world:block/lavarock",
+      "x": 90
+    }
+  }
+}

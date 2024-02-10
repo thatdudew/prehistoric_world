@@ -71,6 +71,10 @@ public class PrehistoricWorldModTabs {
 				tabData.accept(PrehistoricWorldModBlocks.ASH.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.GROUNDCOVER.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.SANDGROUNDCOVERFLOWER.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SHORTGROUNDCOVER.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LAVAROCK.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.BLACKASH.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.CHARNIA.get().asItem());
 			})
 
 					.build());
@@ -102,7 +106,7 @@ public class PrehistoricWorldModTabs {
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(PrehistoricWorldModBlocks.ECHMATOCRINUS_2.get().asItem());
+			tabData.accept(PrehistoricWorldModBlocks.ECHMATOCRINUS.get().asItem());
 		}
 	}
 }

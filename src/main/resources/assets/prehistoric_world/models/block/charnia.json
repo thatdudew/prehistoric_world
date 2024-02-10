@@ -1,0 +1,12 @@
+{
+  "parent": "prehistoric_world:custom/charnia2",
+  "textures": {
+    "all": "prehistoric_world:block/dirt",
+    "particle": "prehistoric_world:block/dirt",
+    "0": "prehistoric_world:block/charinabottom",
+    "1": "prehistoric_world:block/maincharina",
+    "2": "prehistoric_world:block/texture",
+    "missing": "prehistoric_world:block/"
+  },
+  "render_type": "translucent"
+}

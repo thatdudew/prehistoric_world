@@ -37,7 +37,6 @@ public class PrehistoricWorldModItems {
 	public static final RegistryObject<Item> MICROBIALMAT = block(PrehistoricWorldModBlocks.MICROBIALMAT);
 	public static final RegistryObject<Item> MICROBIALORGANIC_GROUND = block(PrehistoricWorldModBlocks.MICROBIALORGANIC_GROUND);
 	public static final RegistryObject<Item> CAUSTICMUD = block(PrehistoricWorldModBlocks.CAUSTICMUD);
-	public static final RegistryObject<Item> ECHMATOCRINUS_2 = block(PrehistoricWorldModBlocks.ECHMATOCRINUS_2);
 	public static final RegistryObject<Item> PROCONODONTUS_SPAWN_EGG = REGISTRY.register("proconodontus_spawn_egg", () -> new ForgeSpawnEggItem(PrehistoricWorldModEntities.PROCONODONTUS, -65485, -65485, new Item.Properties()));
 	public static final RegistryObject<Item> PROCONODONTUSRAW = REGISTRY.register("proconodontusraw", () -> new ProconodontusrawItem());
 	public static final RegistryObject<Item> PROCONODONTUSCOOK = REGISTRY.register("proconodontuscook", () -> new ProconodontuscookItem());
@@ -90,6 +89,11 @@ public class PrehistoricWorldModItems {
 	public static final RegistryObject<Item> ASH = block(PrehistoricWorldModBlocks.ASH);
 	public static final RegistryObject<Item> GROUNDCOVER = block(PrehistoricWorldModBlocks.GROUNDCOVER);
 	public static final RegistryObject<Item> SANDGROUNDCOVERFLOWER = block(PrehistoricWorldModBlocks.SANDGROUNDCOVERFLOWER);
+	public static final RegistryObject<Item> SHORTGROUNDCOVER = block(PrehistoricWorldModBlocks.SHORTGROUNDCOVER);
+	public static final RegistryObject<Item> ECHMATOCRINUS = block(PrehistoricWorldModBlocks.ECHMATOCRINUS);
+	public static final RegistryObject<Item> LAVAROCK = block(PrehistoricWorldModBlocks.LAVAROCK);
+	public static final RegistryObject<Item> BLACKASH = block(PrehistoricWorldModBlocks.BLACKASH);
+	public static final RegistryObject<Item> CHARNIA = block(PrehistoricWorldModBlocks.CHARNIA);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
