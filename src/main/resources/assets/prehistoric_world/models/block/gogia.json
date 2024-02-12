@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "prehistoric_world:block/gogia",
+    "particle": "prehistoric_world:block/gogia"
+  },
+  "render_type": "translucent"
+}

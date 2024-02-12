@@ -75,6 +75,13 @@ public class PrehistoricWorldModTabs {
 				tabData.accept(PrehistoricWorldModBlocks.LAVAROCK.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.BLACKASH.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.CHARNIA.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LYCOPODIOPHYTA.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.ARCHAEFRUCTUS.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SILENESTENOPHYLLA.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LEPTOCYAS.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.ZOSTEROPHYLLUM.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.ZOSTEROPHYLLUMTWO.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.GOGIA.get().asItem());
 			})
 
 					.build());
