@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "prehistoric_world:block/zosterophyllumtwo",
+    "particle": "prehistoric_world:block/zosterophyllumtwo"
+  },
+  "render_type": "cutout"
+}

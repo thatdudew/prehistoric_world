@@ -94,6 +94,13 @@ public class PrehistoricWorldModItems {
 	public static final RegistryObject<Item> LAVAROCK = block(PrehistoricWorldModBlocks.LAVAROCK);
 	public static final RegistryObject<Item> BLACKASH = block(PrehistoricWorldModBlocks.BLACKASH);
 	public static final RegistryObject<Item> CHARNIA = block(PrehistoricWorldModBlocks.CHARNIA);
+	public static final RegistryObject<Item> LYCOPODIOPHYTA = block(PrehistoricWorldModBlocks.LYCOPODIOPHYTA);
+	public static final RegistryObject<Item> ARCHAEFRUCTUS = block(PrehistoricWorldModBlocks.ARCHAEFRUCTUS);
+	public static final RegistryObject<Item> SILENESTENOPHYLLA = block(PrehistoricWorldModBlocks.SILENESTENOPHYLLA);
+	public static final RegistryObject<Item> LEPTOCYAS = block(PrehistoricWorldModBlocks.LEPTOCYAS);
+	public static final RegistryObject<Item> ZOSTEROPHYLLUM = block(PrehistoricWorldModBlocks.ZOSTEROPHYLLUM);
+	public static final RegistryObject<Item> ZOSTEROPHYLLUMTWO = block(PrehistoricWorldModBlocks.ZOSTEROPHYLLUMTWO);
+	public static final RegistryObject<Item> GOGIA = block(PrehistoricWorldModBlocks.GOGIA);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
