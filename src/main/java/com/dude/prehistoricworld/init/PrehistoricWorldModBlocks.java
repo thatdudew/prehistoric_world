@@ -26,6 +26,8 @@ import com.dude.prehistoricworld.block.SkillissueblockBlock;
 import com.dude.prehistoricworld.block.SilenestenophyllaBlock;
 import com.dude.prehistoricworld.block.ShourtgroundcoverBlock;
 import com.dude.prehistoricworld.block.SandymicrobialorganicgroundBlock;
+import com.dude.prehistoricworld.block.SandygravelBlock;
+import com.dude.prehistoricworld.block.SandydirtBlock;
 import com.dude.prehistoricworld.block.SandgroundcoverBlock;
 import com.dude.prehistoricworld.block.RedclayBlock;
 import com.dude.prehistoricworld.block.ProconodontusblockBlock;
@@ -49,6 +51,7 @@ import com.dude.prehistoricworld.block.LepidodendronBlock;
 import com.dude.prehistoricworld.block.LavarockBlock;
 import com.dude.prehistoricworld.block.IngenblockBlock;
 import com.dude.prehistoricworld.block.GroundcoverBlock;
+import com.dude.prehistoricworld.block.GravysandBlock;
 import com.dude.prehistoricworld.block.GogiaBlock;
 import com.dude.prehistoricworld.block.GlassspongeBlock;
 import com.dude.prehistoricworld.block.GinkoplanksBlock;
@@ -132,6 +135,9 @@ public class PrehistoricWorldModBlocks {
 	public static final RegistryObject<Block> ZOSTEROPHYLLUM = REGISTRY.register("zosterophyllum", () -> new ZosterophyllumBlock());
 	public static final RegistryObject<Block> ZOSTEROPHYLLUMTWO = REGISTRY.register("zosterophyllumtwo", () -> new ZosterophyllumtwoBlock());
 	public static final RegistryObject<Block> GOGIA = REGISTRY.register("gogia", () -> new GogiaBlock());
+	public static final RegistryObject<Block> SANDYGRAVEL = REGISTRY.register("sandygravel", () -> new SandygravelBlock());
+	public static final RegistryObject<Block> GRAVYSAND = REGISTRY.register("gravysand", () -> new GravysandBlock());
+	public static final RegistryObject<Block> SANDYDIRT = REGISTRY.register("sandydirt", () -> new SandydirtBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

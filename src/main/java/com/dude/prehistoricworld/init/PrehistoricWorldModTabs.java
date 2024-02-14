@@ -82,6 +82,9 @@ public class PrehistoricWorldModTabs {
 				tabData.accept(PrehistoricWorldModBlocks.ZOSTEROPHYLLUM.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.ZOSTEROPHYLLUMTWO.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.GOGIA.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SANDYGRAVEL.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.GRAVYSAND.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SANDYDIRT.get().asItem());
 			})
 
 					.build());
