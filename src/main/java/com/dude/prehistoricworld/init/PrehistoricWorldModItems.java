@@ -104,6 +104,9 @@ public class PrehistoricWorldModItems {
 	public static final RegistryObject<Item> SANDYGRAVEL = block(PrehistoricWorldModBlocks.SANDYGRAVEL);
 	public static final RegistryObject<Item> GRAVYSAND = block(PrehistoricWorldModBlocks.GRAVYSAND);
 	public static final RegistryObject<Item> SANDYDIRT = block(PrehistoricWorldModBlocks.SANDYDIRT);
+	public static final RegistryObject<Item> DUCKWEED = block(PrehistoricWorldModBlocks.DUCKWEED);
+	public static final RegistryObject<Item> SILT = block(PrehistoricWorldModBlocks.SILT);
+	public static final RegistryObject<Item> LOAM = block(PrehistoricWorldModBlocks.LOAM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

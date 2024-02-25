@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sand"
+    },
+    "b": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "prehistoric_world:sandydirt",
+    "count": 8
+  }
+}

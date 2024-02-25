@@ -1,0 +1,10 @@
+{
+  "parent": "prehistoric_world:custom/duckweed",
+  "textures": {
+    "all": "prehistoric_world:block/duckweed",
+    "particle": "prehistoric_world:block/duckweed",
+    "0": "prehistoric_world:block/duckweed",
+    "missing": "prehistoric_world:block/"
+  },
+  "render_type": "translucent"
+}

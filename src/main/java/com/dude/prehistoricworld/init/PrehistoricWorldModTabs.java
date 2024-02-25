@@ -85,6 +85,9 @@ public class PrehistoricWorldModTabs {
 				tabData.accept(PrehistoricWorldModBlocks.SANDYGRAVEL.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.GRAVYSAND.get().asItem());
 				tabData.accept(PrehistoricWorldModBlocks.SANDYDIRT.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.DUCKWEED.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.SILT.get().asItem());
+				tabData.accept(PrehistoricWorldModBlocks.LOAM.get().asItem());
 			})
 
 					.build());
