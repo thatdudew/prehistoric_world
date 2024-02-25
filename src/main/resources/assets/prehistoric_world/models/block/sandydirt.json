@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/sandy_dirt",
+    "up": "prehistoric_world:block/sandy_dirt",
+    "north": "prehistoric_world:block/sandy_dirt",
+    "east": "prehistoric_world:block/sandy_dirt",
+    "south": "prehistoric_world:block/sandy_dirt",
+    "west": "prehistoric_world:block/sandy_dirt",
+    "particle": "prehistoric_world:block/sandy_dirt"
+  },
+  "render_type": "solid"
+}

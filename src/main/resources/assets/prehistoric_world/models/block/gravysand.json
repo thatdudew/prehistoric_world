@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prehistoric_world:block/gravy_sand",
+    "up": "prehistoric_world:block/gravy_sand",
+    "north": "prehistoric_world:block/gravy_sand",
+    "east": "prehistoric_world:block/gravy_sand",
+    "south": "prehistoric_world:block/gravy_sand",
+    "west": "prehistoric_world:block/gravy_sand",
+    "particle": "prehistoric_world:block/gravy_sand"
+  },
+  "render_type": "solid"
+}

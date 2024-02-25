@@ -23,9 +23,12 @@ import com.dude.prehistoricworld.block.SyringocrinusblockBlock;
 import com.dude.prehistoricworld.block.SulphurblcokBlock;
 import com.dude.prehistoricworld.block.SulphurBlock;
 import com.dude.prehistoricworld.block.SkillissueblockBlock;
+import com.dude.prehistoricworld.block.SiltBlock;
 import com.dude.prehistoricworld.block.SilenestenophyllaBlock;
 import com.dude.prehistoricworld.block.ShourtgroundcoverBlock;
 import com.dude.prehistoricworld.block.SandymicrobialorganicgroundBlock;
+import com.dude.prehistoricworld.block.SandygravelBlock;
+import com.dude.prehistoricworld.block.SandydirtBlock;
 import com.dude.prehistoricworld.block.SandgroundcoverBlock;
 import com.dude.prehistoricworld.block.RedclayBlock;
 import com.dude.prehistoricworld.block.ProconodontusblockBlock;
@@ -37,6 +40,7 @@ import com.dude.prehistoricworld.block.MicrobialorganicGroundBlock;
 import com.dude.prehistoricworld.block.MicrobialmatBlock;
 import com.dude.prehistoricworld.block.LycopodiophytaBlock;
 import com.dude.prehistoricworld.block.LushgroundBlock;
+import com.dude.prehistoricworld.block.LoamBlock;
 import com.dude.prehistoricworld.block.LeptocyasBlock;
 import com.dude.prehistoricworld.block.LepidodendronstairsBlock;
 import com.dude.prehistoricworld.block.LepidodendronslabBlock;
@@ -49,12 +53,14 @@ import com.dude.prehistoricworld.block.LepidodendronBlock;
 import com.dude.prehistoricworld.block.LavarockBlock;
 import com.dude.prehistoricworld.block.IngenblockBlock;
 import com.dude.prehistoricworld.block.GroundcoverBlock;
+import com.dude.prehistoricworld.block.GravysandBlock;
 import com.dude.prehistoricworld.block.GogiaBlock;
 import com.dude.prehistoricworld.block.GlassspongeBlock;
 import com.dude.prehistoricworld.block.GinkoplanksBlock;
 import com.dude.prehistoricworld.block.GinkgologBlock;
 import com.dude.prehistoricworld.block.FernyorganicgroundBlock;
 import com.dude.prehistoricworld.block.EchmatocrinusBlock;
+import com.dude.prehistoricworld.block.DuckweedBlock;
 import com.dude.prehistoricworld.block.DriedMudBlock;
 import com.dude.prehistoricworld.block.DeepslatezirconoreBlock;
 import com.dude.prehistoricworld.block.CoarsesandydirtBlock;
@@ -132,6 +138,12 @@ public class PrehistoricWorldModBlocks {
 	public static final RegistryObject<Block> ZOSTEROPHYLLUM = REGISTRY.register("zosterophyllum", () -> new ZosterophyllumBlock());
 	public static final RegistryObject<Block> ZOSTEROPHYLLUMTWO = REGISTRY.register("zosterophyllumtwo", () -> new ZosterophyllumtwoBlock());
 	public static final RegistryObject<Block> GOGIA = REGISTRY.register("gogia", () -> new GogiaBlock());
+	public static final RegistryObject<Block> SANDYGRAVEL = REGISTRY.register("sandygravel", () -> new SandygravelBlock());
+	public static final RegistryObject<Block> GRAVYSAND = REGISTRY.register("gravysand", () -> new GravysandBlock());
+	public static final RegistryObject<Block> SANDYDIRT = REGISTRY.register("sandydirt", () -> new SandydirtBlock());
+	public static final RegistryObject<Block> DUCKWEED = REGISTRY.register("duckweed", () -> new DuckweedBlock());
+	public static final RegistryObject<Block> SILT = REGISTRY.register("silt", () -> new SiltBlock());
+	public static final RegistryObject<Block> LOAM = REGISTRY.register("loam", () -> new LoamBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

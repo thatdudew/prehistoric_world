@@ -75,8 +75,8 @@
               0.55
             ],
             "weirdness": [
-              -1,
-              1
+              -2,
+              2
             ],
             "erosion": [
               0.9499,
@@ -493,10 +493,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:water",
-                            "Properties": {
-                              "level": "0"
-                            }
+                            "Name": "prehistoric_world:gravysand"
                           }
                         }
                       ]
@@ -568,10 +565,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:water",
-                            "Properties": {
-                              "level": "0"
-                            }
+                            "Name": "prehistoric_world:gravysand"
                           }
                         }
                       ]

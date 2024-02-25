@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "prehistoric_world:block/loam",
+    "particle": "prehistoric_world:block/loam"
+  },
+  "render_type": "solid"
+}
